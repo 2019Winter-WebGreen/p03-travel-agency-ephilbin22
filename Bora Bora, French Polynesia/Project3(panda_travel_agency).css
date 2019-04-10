@@ -1,0 +1,34 @@
+/*
+* Emma Philbin
+* 9 April 2019
+* Padua Panda Travel Agency for Bora Bora, French Polynesian
+*/
+
+/* The universal selector */
+
+* {
+    
+}
+
+/* Body attributes here */
+
+body {
+   /* This is saying what color the page will be */
+   background-color: paleturquoise;
+}
+
+/* This is saying that the rows and colums will be seperated by a solid blue line, instead of a noraml black, thick line/border */
+table, td, th {border: 1px solid blue;}
+
+/* This is saying that there is no more normal black, thick line/border within the table */
+table {border-collapse: collapse;}
+
+/* These are the sections of the chart, with their background-colors */
+thead {background-color: lightgreen;}
+tbody {background-color: peachpuff;}
+tfoot {background-color: palevioletred;}
+
+/* These are image ids to put what width and height I want them to be */
+#Huts {width: 300px; height: 200px;}
+#Canoes {width: 300px; height: 200px;}
+#Sunset {width: 300px; height: 200px;}
